@@ -1,0 +1,2 @@
+# Low-Resource-NLP--Indian-Language-LLMs---Translation-Models-
+ This repository contains our implementation of a Low-Resource NLP System for Indian languages, covering Large Language Model (LLM) training, translation models, and morpheme-based tokenization techniques. The project aims to improve NLP performance in low-resource settings by exploring alternative tokenization methods beyond Byte-Pair Encoding (BPE) and training optimized models for Indian languages.
