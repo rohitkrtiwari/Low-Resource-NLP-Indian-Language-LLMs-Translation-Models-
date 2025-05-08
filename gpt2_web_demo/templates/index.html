@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dual GPT-2 Hindi Demo</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dual GPT-2 Hindi Demo</h1>
+            <p>Compare Morpheme and BPE tokenizer outputs simultaneously</p>
+        </header>
+        
+        <div class="chat-container">
+            <div class="chat-column">
+                <h3>Morpheme Tokenizer</h3>
+                <div id="morph-chat" class="chat-history"></div>
+            </div>
+            
+            <div class="chat-column">
+                <h3>BPE Tokenizer</h3>
+                <div id="bpe-chat" class="chat-history"></div>
+            </div>
+        </div>
+        
+        <div class="input-area">
+            <textarea id="user-input" placeholder="Type your message here... (e.g., कुछ उदाहरण दें।)"></textarea>
+            <div class="button-group">
+                <button id="send-button">Send</button>
+                <button id="clear-button">Clear</button>
+            </div>
+        </div>
+        
+        <div class="loading" id="loading" style="display: none;">
+            <div class="loading-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
